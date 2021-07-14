@@ -100,38 +100,6 @@ a {
   }
 }
 
-.navigation-content {
-  position: fixed;
-  width: 100%;
-  padding: 15px 80px;
-  height: 70px;
-  background-color: #2d25a0;
-}
-label.login {
-  display: block;
-  float: right;
-}
-.nav-item ul {
-  float: left;
-  margin-top: 6px;
-}
-.nav-item ul li {
-  display: inline-block;
-}
-.nav-item ul li a {
-  color: #ffffff;
-  margin-right: 16px;
-}
-.checkbtn {
-  font-size: 30px;
-  color: white;
-  float: left;
-  cursor: pointer;
-  display: none;
-}
-#check {
-  display: none;
-}
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -341,37 +309,7 @@ th {
 /* Mobile devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* header section */
-  .navigation-content {
-    padding: 15px 16px;
-    position: fixed;
-    height: 70px;
-    width: 100%;
-    background-color: #2d25a0;
-  }
-  .checkbtn {
-    display: block;
-  }
-  .nav-item ul {
-    position: absolute;
-    width: 50%;
-    height: 100vh;
-    background: #2d25a0;
-    opacity: 0.9;
-    top: 62px;
-    left: -100%;
-    transition: 0.5s;
-  }
-  .nav-item ul li {
-    display: block;
-    margin: 16px;
-  }
-  .nav-item ul li a {
-    color: #fff;
-    font-size: 20px;
-  }
-  #check:checked ~ .nav-item ul {
-    left: 0;
-  }
+
   .header-content {
     padding: 50px 0;
     flex-direction: column;
@@ -448,9 +386,6 @@ th {
 /* Tablet devices (601px to 768px) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   /* header */
-  .navigation-content {
-    padding: 15px 16px;
-  }
   .header-content {
     padding: 16px;
     padding-top: 100px;
@@ -509,9 +444,7 @@ th {
 /* Large devices (769px to 1200px) */
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   /* header */
-  .navigation-content {
-    padding: 15px 16px;
-  }
+
   .header-content {
     padding: 16px;
     padding-top: 100px;
